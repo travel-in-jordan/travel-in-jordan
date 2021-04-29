@@ -33,3 +33,7 @@ As a user i want to give the feedback for my experience to help other people in 
 * user story 5:
 
 As a user i want to be attracted to the website by it's information's and style.
+
+## Wireframe:
+
+![wireframe](./img/wireframe.png)
