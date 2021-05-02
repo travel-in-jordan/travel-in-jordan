@@ -1,0 +1,156 @@
+html{
+
+    background: #f0ebcc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: rgb(255, 255, 255);
+}
+
+header img{
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+}
+
+header nav{
+    margin-top: 75px;
+    word-spacing: 30px;
+    text-align: center;
+    padding-left: 600px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 14px 16px;
+}
+header nav a:hover{
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.dropbtn {
+  background-color: #04aa6d00;
+  color: rgba(0, 0, 0, 0.705);
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 14px 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 126px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgba(0, 0, 0, 0.705);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(221, 221, 221, 0.5);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.slider {
+    display:block;
+    background: white;
+    box-shadow:0 0 10px ;
+    width: 59%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.slider h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.slider h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.contaner{
+    display: grid;
+    grid-template-columns: 1250px 200px;
+    gap: 125px;
+    margin-top: 100px;
+}
+
+.article{
+    margin-left: 25%;
+}
+
+.imgcontainer{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 10px;
+}
+
+.imgcontainer img{
+    width: 100px;
+}
+
+
+
+
+
+footer{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    background-color: rgb(255, 255, 255);
+}
+
+.socialMedia{
+    font-size: 30px;
+    
+}
+
+.socialMedia a{
+    color: black;
+    padding: 0 20px;
+
+    
+}
+
+footer p{
+    text-align: right;
+    
+}
