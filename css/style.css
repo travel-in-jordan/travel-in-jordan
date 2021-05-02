@@ -1,0 +1,160 @@
+
+html{
+    background: url('https://wallpaperaccess.com/download/wadi-rum-4682879') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+header img{
+
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+}
+
+header nav{
+    margin-top: 75px;
+    word-spacing: 30px;
+    text-align: center;
+    padding-left: 600px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 14px 16px;
+}
+header nav a:hover{
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+
+main{
+    margin-top: 100px;
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.mainSection{
+    padding: 50px 50px;
+}
+
+.description{
+    width: 100%;
+    line-height: 25px;
+}
+
+.description h1{
+    font-size: xx-large;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.description article p{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.description button{
+    background-color:rgba(255, 255, 255, 0.301);
+    border: none;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 14px 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description button:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+    
+}
+
+.video video{
+    width: 100%;
+    border: solid 1px #f0ebcc;
+}
+
+.dropbtn {
+  background-color: #04aa6d00;
+  color: rgba(0, 0, 0, 0.705);
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 14px 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f13f;
+  min-width: 126px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgba(0, 0, 0, 0.705);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(221, 221, 221, 0.5);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+footer{
+    margin-top: 50px;
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+.socialMedia{
+    font-size: 30px;
+    
+}
+
+.socialMedia a{
+    color: black;
+    padding: 0 20px;
+    
+}
+
+footer p{
+    text-align: right;
+    
+}
