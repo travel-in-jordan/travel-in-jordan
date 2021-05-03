@@ -1,3 +1,4 @@
+
   
 {
     "extends": "eslint:recommended",
@@ -41,3 +42,4 @@
       // "strict": [2, "global"]
     }
   }
+

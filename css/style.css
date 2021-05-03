@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+html{
+    background: url('') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: #ccc;
+}
+
+header img{
+
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+}
+
+header nav{
+    margin-top: 50px;
+    word-spacing: 30px;
+    text-align: center;
+    padding-left: 500px;
+}
+
+.covid19{
+    display: inline-block;
+    padding: 14px 50px;
+    background-color: rgb(214, 26, 26);
+    text-align: right;
+    background-image: url(https://icon2.cleanpng.com/20171220/euw/exclamation-mark-png-5a3a528f0b35d2.1572392815137716630459.jpg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.covid19 p{
+    position: relative;
+    left: 15px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 14px 16px;
+}
+header nav a:hover{
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+.dropbtn {
+    background-color: #04aa6d00;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 14px 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 126px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgba(0, 0, 0, 0.705);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0.5);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+      color: white;
+      background-color: rgba(0, 0, 0, 0.507);
+  }
+
+
+main{
+    width: 1024px;
+    margin: auto;
+}
+
+.mainSection img{
+    width: 100%;
+    z-index: -1;
+}
+
+.mainSection h1{
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    font-size: 100px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 75%);
+}
+
+footer{
+    background-color: #ccc;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.socialMedia{
+    font-size: 30px;
+}
+
+.socialMedia a{
+    color: black;
+    padding: 0 20px;
+    
+}
