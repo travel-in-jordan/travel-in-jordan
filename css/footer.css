@@ -1,0 +1,39 @@
+
+
+#footer {
+  margin-top: 50px;
+  position: relative;
+  height: 120px;
+  background-color: #ccc;
+}
+
+
+.footer-follow {
+  text-align: center;
+  padding: 0;
+
+}
+.footer-follow li {
+  display: inline-block;
+}
+
+.footer-follow li a {
+display: inline-block;
+width: 50px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+border-radius: 3px;
+background-color: #f0b152;
+color:#FFF;
+margin-top:30px;
+}
+
+.footer-copyright p {
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+ /*  margin: 0; */
+color:#383835;
+
+}
