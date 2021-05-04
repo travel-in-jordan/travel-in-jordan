@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Freckle+Face&family=Josefin+Sans:ital,wght@0,400;1,300&family=Original+Surfer&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
+
+
+
+body {
+    width: 100%;
+    margin: auto;
+  }
+
+  main{
+
+  }
+
+
+main img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+.container> div{
+  position: absolute;
+  left: 32%;
+  top: 2.5%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+.container> div h1{
+  color: whitesmoke;
+  text-shadow: 2px 2px #0d0a06;
+  font-size: 80px;
+}
+
+.container> div p{
+  color: whitesmoke;
+  text-shadow: 2px 2px #0d0a06;
+  text-align: center;
+  }
+
+fieldset{
+
+  width: 500px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  border: none;
+  z-index: 1;
+  position: relative;
+  bottom: 400px;
+}
+
+.formTitle{
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0px 15px;
+  position: relative;
+}
+
+.form p::before {
+  content: '';
+  position: absolute;
+  left: 5px;
+  height: 70%;
+  width: 5px;
+  background: #ffb037;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+  
+  div.elem-group {
+    margin: 10px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 50%;
+    float: left;
+    
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+
+  button {
+    background-color: rgba(90, 139, 144, 0.82);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px;
+    
+  }
+  
+  button:hover {
+    background-color: rgba(32, 106, 93, 0.8);
+    
+  }
+
+  #bookingProfile {
+      padding: 0 25px;
+      
+  }
+
+  #bookingProfile table{
+      /* border-collapse: collapse; */
+      margin: auto;
+  }
+
+  #bookingProfile table thead th{
+      /* border: solid 1px; */
+      text-align: center;
+      width: 200px;
+  }
+
+  #bookingProfile table td{
+    /* border: solid 1px; */
+    word-break: break-all;
+    text-align: center;
+    width: 200px;
+    height: 10px;
+}
+
+#bookingProfile{
+  position: relative;
+  bottom: 200px;
+}
+
+#tBody thead{
+
+background: #f0b152;
+color: white;
+line-height: 50px;
+font-size: x-large;
+}
+
+#table-body tr:nth-child(odd){
+  background: rgba(211, 211, 211, 0.26);
+  }
