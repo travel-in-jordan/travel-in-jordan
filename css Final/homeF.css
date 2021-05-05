@@ -93,8 +93,8 @@
       }
       
       header nav {
-        position: relative;
-        left: 100px;
+       /* position: relative;
+        left: 100px; */
      
         text-align: right;
       }
@@ -197,7 +197,7 @@
 
       header img{
         
-        width:170px;
+        height: 80px;
        
        
         

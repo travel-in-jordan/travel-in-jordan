@@ -263,6 +263,11 @@ body {
         margin: 0;
       
       }
+
+      .sticky img {
+        height: 70px;
+        object-fit: cover;
+      }
       
       .sticky a {
         color: #222;
