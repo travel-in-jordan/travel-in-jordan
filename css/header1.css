@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
 header {
   grid-row: 1 / 2;
   grid-column: 1 / 2;
@@ -8,9 +9,9 @@ header {
   margin: 0 auto;
   z-index: 20;
   transition: all ease-in-out 550ms;
-  background: rgba(255, 255, 255, 0.15);
+  background: #a8abb652;
   height: 80px;
-  margin-top: 30px;
+  margin-top: 20px;
 
 }
 
@@ -26,7 +27,8 @@ header {
 }
 
 .sticky img {
-  width: 50%;
+  width: 200px;
+  margin-top: -20px;
 }
 
 .sticky a {
@@ -34,7 +36,7 @@ header {
 }
 
 .sticky nav a:hover {
-  background: #425e6a;
+  background:  #425E6A;
   color: #fff;
   position: relative;
 }
@@ -46,9 +48,11 @@ header {
 
 header nav {
   text-align: right;
+  margin-bottom: 40px;
 }
 
 header nav a {
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
@@ -59,8 +63,8 @@ header nav a {
 }
 
 header nav a:hover {
-  background: #fff;
-  color: #2f5d62;
+  background: #425E6A;
+  color:#fff;
   position: relative;
 }
 
@@ -75,10 +79,10 @@ header nav a:hover::after {
 }
 
 .dropbtn {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;;
   text-transform: uppercase;
   background: rgba(255, 255, 255, 0);
-  color: #fff;
+  color:white;
   font-size: 10px;
   font-weight: bolder;
   border-radius: none;
@@ -88,8 +92,8 @@ header nav a:hover::after {
 }
 
 .dropbtn:hover{
-  background: #fff;
-  color: #2f5d62;
+  background: #425E6A;
+  color: #fff;
 }
 
 .dropbtn:hover::after {
@@ -126,8 +130,20 @@ header nav a:hover::after {
   
 }
 
-.dropdown-content a:hover {background-color: rgba(221, 221, 221, 0.5);}
+.dropdown-content a:hover {
+  background-color: #425E6A;
+}
 
 .dropdown:hover .dropdown-content {display: block;}
 
+.sticky .dropbtn{
+  color: #222;
 
+}
+.sticky .dropbtn:hover{
+  color: #fff;
+}
+header img{
+  width: 200px;
+  margin-top: -20px;
+}
