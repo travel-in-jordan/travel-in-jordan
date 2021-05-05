@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Freckle+Face&family=Josefin+Sans:ital,wght@0,400;1,300&family=Original+Surfer&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
 
-
+*{
+  box-sizing: border-box;
+}
 
 body {
     width: 100%;
     margin: auto;
+    background: rgba(204, 204, 204, 0.199);
   }
 
   main{
-
+    display: block;
   }
-
 
 main img{
   width: 100%;
@@ -20,10 +22,12 @@ main img{
 }
 
 .container{
-  display: flex;
+  display: grid;
+  grid-template-rows: 744px 339px 500px 1fr;
   flex-direction: column;
   gap: 30px;
   position: relative;
+  height: 100%;
 }
 
 .container> div{
@@ -48,13 +52,14 @@ main img{
 
 fieldset{
 
-  width: 500px;
+  width: 750px;
   margin: auto;
   background: rgb(255, 255, 255);
   border: none;
   z-index: 1;
   position: relative;
   bottom: 400px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.185);
 }
 
 .formTitle{
@@ -62,6 +67,11 @@ fieldset{
   font-weight: 500;
   padding: 0px 15px;
   position: relative;
+}
+
+.table{
+  position: relative;
+  overflow: auto;
 }
 
 .form p::before {
@@ -124,7 +134,7 @@ fieldset{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 120px;
+   
     
   }
   
@@ -141,6 +151,7 @@ fieldset{
   #bookingProfile table{
       /* border-collapse: collapse; */
       margin: auto;
+      overflow: scroll;
   }
 
   #bookingProfile table thead th{
@@ -158,8 +169,7 @@ fieldset{
 }
 
 #bookingProfile{
-  position: relative;
-  bottom: 200px;
+
 }
 
 #tBody thead{
@@ -173,3 +183,4 @@ font-size: x-large;
 #table-body tr:nth-child(odd){
   background: rgba(211, 211, 211, 0.26);
   }
+

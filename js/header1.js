@@ -1,15 +1,16 @@
-
 'use strict';
 
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {headerFunction();};
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop + 100;
+let header = document.getElementById( 'myHeader' );
+let sticky = header.offsetTop + 100;
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
+function headerFunction() {
+  if ( window.pageYOffset > sticky ) {
+    header.classList.add( 'sticky' );
   } else {
-    header.classList.remove("sticky");
+    header.classList.remove( 'sticky' );
   }
 }
+
+

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Freckle+Face&family=Josefin+Sans:ital,wght@0,400;1,300&family=Original+Surfer&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
 
 
 html{
@@ -26,7 +27,7 @@ body{
   top: 0;
   transition: all 550ms;
   background: #fff;
-  height: 50px;
+  height: 80px;
   width: 100%;
 }
 
@@ -40,14 +41,14 @@ header{
   margin: 0 auto;
   z-index: 20;
   transition: all ease-in-out 550ms;
-  
+  font-family: 'Roboto', sans-serif;
   background: rgba(255, 255, 255, 0.15);
   height: 80px;
   margin-top: 30px;
 
 }
 header img{
-  width: 75px;
+  width: 150px;
   padding-left: 50px ;
 }
 .sticky a {
@@ -113,7 +114,8 @@ header nav a:hover::after {
 }
 .dropbtn {
  
-  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;
+
   text-transform: uppercase;
   background-color: #ffffff00;
   color: rgb(255, 255, 255);
@@ -169,12 +171,14 @@ footer{
 #footer {
   position: relative;
   background-color: #a8abb6
+  
 }
 
 
 .footer-follow {
   text-align: center;
   padding: 0;
+ 
 
 }
 .footer-follow li {
@@ -190,13 +194,14 @@ text-align: center;
 border-radius: 3px;
 background-color: #f0b152;
 color:#FFF;
+margin-top: 30px;
 }
 
 .footer-copyright p {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
-
+margin-top: 25px;
 color:#383835;
 
 }
@@ -370,7 +375,7 @@ font-family: 'Dancing Script', cursive;
   display: grid;     
   grid-template-columns: 302px 301.5px 301.5px;
   gap: 40px;
-  padding-left: 180px;
+  padding-left: 460px;
  padding-top: 20px;
 }
 
@@ -421,7 +426,7 @@ font-weight: bold;
   width: 10px;
 }
 .secbtn{
-  margin-left: 615px;
+  margin-left: 890px;
 }
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 

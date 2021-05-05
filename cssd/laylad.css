@@ -393,11 +393,10 @@ body {
 .video video{
   width: 80%;
   height: 70%;
-  border: solid 1px #f0ebcc;
   position: relative;
   left: 10%;
   margin-bottom: 50px;
-
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.7);
 }
 
 /* .videoC{
