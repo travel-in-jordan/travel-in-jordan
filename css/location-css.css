@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Freckle+Face&family=Josefin+Sans:ital,wght@0,400;1,300&family=Original+Surfer&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 
 html{
 
@@ -29,6 +32,7 @@ body{
   background: #fff;
   height: 80px;
   width: 100%;
+  padding: 0 20px;
 }
 
 header{
@@ -48,8 +52,7 @@ header{
 
 }
 header img{
-  width: 150px;
-  padding-left: 50px ;
+  height: 80px;
 }
 .sticky a {
   color: #222;
@@ -133,16 +136,18 @@ main section a {
     padding-top: 40px;
 
 }
+
+
+
 .dropdown {
   position: relative;
   display: inline-block;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
   min-width: 158px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -153,6 +158,7 @@ main section a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  background: #fff;
 }
 
 .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0.5);}
@@ -373,10 +379,11 @@ font-family: 'Dancing Script', cursive;
   
 .hotels{
   display: grid;     
-  grid-template-columns: 302px 301.5px 301.5px;
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  padding-left: 460px;
  padding-top: 20px;
+ margin: auto;
+ width: 960px;
 }
 
 .img1{
@@ -423,10 +430,8 @@ font-weight: bold;
   color: rgb(0, 0, 0);
 }
 .buttonB{
-  width: 10px;
 }
 .secbtn{
-  margin-left: 890px;
 }
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
